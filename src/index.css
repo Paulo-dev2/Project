@@ -117,7 +117,7 @@
   flex-direction: column;
 }
 .frame-text {
-  color: var(--dl-color-www.magnofernandes.com-nero);
+  color: #ffffff;
   width: 296px;
   height: auto;
   font-size: 30px;
@@ -164,7 +164,7 @@
   flex-direction: column;
 }
 .frame-text04 {
-  color: var(--dl-color-www.magnofernandes.com-nero);
+  color: #ffffff;
   width: 472px;
   height: auto;
   text-align: center;
@@ -178,7 +178,7 @@
   flex-direction: column;
 }
 .frame-text06 {
-  color: var(--dl-color-www.magnofernandes.com-nero);
+  color: #ffffff;
   height: auto;
   align-self: stretch;
   text-align: center;
@@ -308,7 +308,7 @@
   flex-direction: column;
 }
 .frame-text08 {
-  color: var(--dl-color-www.magnofernandes.com-nero);
+  color: #ffffff;
   height: auto;
   align-self: stretch;
   text-align: center;
