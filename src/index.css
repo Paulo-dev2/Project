@@ -1,4 +1,36 @@
-.frame-container {
+html {
+  line-height: 1.15;
+  scroll-behavior: smooth;
+  font-family: Noto Sans, sans-serif;
+}
+body {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--dl-color-theme-neutral-dark);
+  background-color: var(--dl-color-theme-neutral-light);
+}
+*, *::before, *::after {
+  box-sizing: border-box;
+  border: 0 solid;
+}
+p, li, ul, pre, div, h1, h2, h3, h4, h5, h6, figure, blockquote, figcaption {
+  margin: 0;
+  padding: 0;
+}
+button {
+  background-color: transparent;
+  font: inherit;
+  margin: 0;
+}
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+img {
+  display: block;
+}
+.container {
   width: 100%;
   display: flex;
   overflow: auto;
@@ -6,311 +38,90 @@
   align-items: center;
   flex-direction: column;
 }
-.frame-frame {
+.frame {
   width: 100%;
-  height: auto;
   display: flex;
   align-items: flex-start;
-  flex-shrink: 0;
   flex-direction: column;
-  background-color: var(--dl-color-www.magnofernandes.com-neroblack);
+  background-color: var(--dl-color-www-magnofernandes-com-neroblack);
+  padding: 0 10%;
 }
-.frame-container01 {
-  height: 1082px;
+.section {
   display: flex;
-  align-self: stretch;
-  align-items: flex-start;
-  flex-shrink: 0;
+  width: 100%;
+  justify-content: center;
   flex-direction: column;
-}
-.frame-section {
-  display: flex;
-  padding: 0 390px;
-  align-self: stretch;
   align-items: center;
-  flex-direction: column;
 }
-.frame-container02 {
-  width: 1140px;
+.picture {
   display: flex;
-  align-items: flex-start;
-  flex-shrink: 0;
   justify-content: center;
+  margin: 75px 0 20px;
 }
-.frame-container03 {
-  display: flex;
-  padding: 10px;
-  flex-grow: 1;
-  align-self: stretch;
-  align-items: flex-start;
-  flex-direction: column;
-  justify-content: center;
-}
-.frame-margin {
-  height: 263px;
-  display: flex;
-  padding: 0 0 20px;
-  align-self: stretch;
-  align-items: flex-start;
-  flex-shrink: 0;
-  flex-direction: column;
-  justify-content: center;
-}
-.frame-container04 {
-  height: 243px;
-  display: flex;
-  padding: 75px 0 0;
-  align-self: stretch;
-  align-items: flex-start;
-  flex-shrink: 0;
-  flex-direction: column;
-}
-.frame-container05 {
-  display: flex;
-  padding: 0 476px;
-  align-self: stretch;
-  align-items: center;
-  flex-direction: column;
-}
-.frame-picture {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.frame-magnofoto1024x1024jpgwebp {
+.picture img {
   width: 168px;
   height: 168px;
-  display: flex;
-  overflow: hidden;
-  position: relative;
-  flex-grow: 1;
-  align-items: flex-start;
-  flex-shrink: 0;
-  border-radius: 100px;
-  background-size: cover;
-  background-image: url("img/tq_tu7ogakurf-315n-200h.png");
+  border-radius: 50%;
+  object-fit: cover;
 }
-.frame-margin1 {
-  height: 90px;
-  display: flex;
-  padding: 0 0 20px;
-  align-self: stretch;
-  align-items: flex-start;
-  flex-shrink: 0;
-  flex-direction: column;
-  justify-content: center;
-}
-.frame-container06 {
-  height: 70px;
-  display: flex;
-  padding: 10px 50px 0;
-  align-self: stretch;
-  align-items: flex-start;
-  flex-shrink: 0;
-  flex-direction: column;
-}
-.frame-container07 {
-  display: flex;
-  padding: 0 370.1199951171875px 0 370.1099853515625px;
-  align-self: stretch;
-  align-items: center;
-  flex-direction: column;
-}
-.frame-text {
+.text {
   color: #ffffff;
-  width: 296px;
-  height: auto;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.text .name {
   font-size: 30px;
-  font-style: SemiBold;
-  text-align: center;
-  font-family: Montserrat;
   font-weight: 600;
+  font-family: 'Montserrat', sans-serif;
   line-height: 30px;
-  font-stretch: normal;
-  text-decoration: none;
 }
-.frame-margin2 {
-  height: 156.75px;
+.text .description {
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+}
+.text .cta {
+  font-weight: 700;
+  margin-top: 10px;
+}
+.link {
   display: flex;
-  padding: 0 0 20px;
-  align-self: stretch;
-  align-items: flex-start;
-  flex-shrink: 0;
-  flex-direction: column;
   justify-content: center;
+  margin-bottom: 20px;
 }
-.frame-container08 {
-  height: 136.75px;
-  display: flex;
-  padding: 0 350px;
-  align-self: stretch;
-  align-items: flex-start;
-  flex-shrink: 0;
-  flex-direction: column;
-}
-.frame-container09 {
-  gap: 14px;
-  display: flex;
-  align-self: stretch;
-  align-items: flex-start;
-  flex-direction: column;
-}
-.frame-paragraph {
-  gap: -0.009999999776482582px;
-  display: flex;
-  padding: 0 12.970000267028809px 0 12.949999809265137px;
-  align-self: stretch;
-  align-items: center;
-  flex-direction: column;
-}
-.frame-text04 {
-  color: #ffffff;
-  width: 472px;
+.link img {
+  width: 100%;
+  max-width: 459px;
   height: auto;
-  text-align: center;
-  line-height: 21.600000381469727px;
-}
-.frame-container10 {
-  display: flex;
-  padding: 0 60.91999816894531px 0 60.90999984741211px;
-  align-self: stretch;
-  align-items: center;
-  flex-direction: column;
-}
-.frame-text06 {
-  color: #ffffff;
-  height: auto;
-  align-self: stretch;
-  text-align: center;
-  line-height: 21.600000381469727px;
-}
-.frame-margin3 {
-  height: 237.8000030517578px;
-  display: flex;
-  padding: 0 0 20px;
-  align-self: stretch;
-  align-items: flex-start;
-  flex-shrink: 0;
-  flex-direction: column;
-  justify-content: center;
-}
-.frame-container11 {
-  height: 217.8000030517578px;
-  display: flex;
-  align-self: stretch;
-  align-items: flex-start;
-  flex-shrink: 0;
-  flex-direction: column;
-}
-.frame-container12 {
-  display: flex;
-  padding: 0 330.5px;
-  align-self: stretch;
-  align-items: center;
-  flex-direction: column;
-}
-.frame-link {
-  display: contents;
-}
-.frame-link-picture {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.frame-aulao1jpgwebp {
-  width: 459px;
-  height: 217.8000030517578px;
-  display: flex;
-  overflow: hidden;
-  position: relative;
-  flex-grow: 1;
-  align-items: flex-start;
-  flex-shrink: 0;
   border-radius: 20px;
-  background-size: cover;
-  background-image: url("img/tq_x6gsekyuzy-fqp9-1500h.png");
 }
-.frame-margin4 {
-  height: 237.8000030517578px;
+.footer {
+  width: 100%;
   display: flex;
-  padding: 0 0 20px;
-  align-self: stretch;
-  align-items: flex-start;
-  flex-shrink: 0;
-  flex-direction: column;
   justify-content: center;
+  padding: 50px 10%;
 }
-.frame-container13 {
-  height: 217.8000030517578px;
-  display: flex;
-  align-self: stretch;
-  align-items: flex-start;
-  flex-shrink: 0;
-  flex-direction: column;
-}
-.frame-container14 {
-  display: flex;
-  padding: 0 330.5px;
-  align-self: stretch;
-  align-items: center;
-  flex-direction: column;
-}
-.frame-link1 {
-  display: contents;
-}
-.frame-link-picture1 {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.frame-metododn-ajpgwebp {
-  width: 459px;
-  height: 217.8000030517578px;
-  display: flex;
-  overflow: hidden;
-  position: relative;
-  flex-grow: 1;
-  align-items: flex-start;
-  flex-shrink: 0;
-  border-radius: 20px;
-  background-size: cover;
-  background-image: url("img/tq_ptenlwrfa4-2stb-1500h.png");
-}
-.frame-section1 {
-  display: flex;
-  padding: 0 390px;
-  align-self: stretch;
-  align-items: center;
-  flex-direction: column;
-  overflow: hidden;
-}
-.frame-container15 {
-  width: 1140px;
-  display: flex;
-  padding: 10px;
-  align-items: flex-start;
-  flex-shrink: 0;
-  justify-content: center;
-}
-.frame-container16 {
-  display: flex;
-  padding: 50px 100px;
-  flex-grow: 1;
-  align-self: stretch;
-  align-items: flex-start;
-  flex-direction: column;
-}
-.frame-heading2 {
-  display: flex;
-  padding: 0 345.3900146484375px 0 345.3800048828125px;
-  align-self: stretch;
-  align-items: center;
-  flex-direction: column;
-}
-.frame-text08 {
+.footer span {
   color: #ffffff;
-  height: auto;
-  align-self: stretch;
   text-align: center;
-  line-height: 16.799999237060547px;
+  font-weight: 700;
+}
+
+@media (max-width: 768px) {
+  .frame {
+    padding: 0 5%;
+  }
+  .section {
+    padding: 0;
+  }
+  .picture img {
+    width: 120px;
+    height: 120px;
+  }
+  .text .name {
+    font-size: 24px;
+    line-height: 24px;
+  }
+  .link img {
+    max-width: 100%;
+  }
 }
