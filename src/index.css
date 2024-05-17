@@ -76,6 +76,7 @@ img {
   line-height: 30px;
 }
 .text .description {
+  margin-top: 10px;
   font-family: 'Roboto', sans-serif;
   font-size: 18px;
 }
@@ -90,7 +91,7 @@ img {
 }
 .link img {
   width: 100%;
-  max-width: 459px;
+  max-width: 700px;
   height: auto;
   border-radius: 20px;
 }
